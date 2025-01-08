@@ -9,7 +9,6 @@
     <ItemGroup>
       <Folder Include="Analysers\Header\" />
       <Folder Include="Analysers\Import\" />
-      <Folder Include="Strings\" />
       <Folder Include="Types\" />
       <Folder Include="Wizards\" />
     </ItemGroup>

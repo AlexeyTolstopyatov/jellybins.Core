@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "jellybins.Core/1.0.0": {
+        "runtime": {
+          "jellybins.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "jellybins.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

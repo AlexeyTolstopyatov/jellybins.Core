@@ -1,4 +1,4 @@
-﻿namespace jellybins.Core.Models;
+﻿namespace jellybins.Core.Models.Flags;
 
 public struct AssemblerOutFlags
 {
@@ -8,7 +8,7 @@ public struct AssemblerOutFlags
     public string Magic;
     /// <summary>
     /// Based on <see cref="Magic"/> suggestions for every Unix-like
-    /// Operating system. (Every old Unix-like OS has unique definitions
+    /// Operating system. <para/> (Every old Unix-like OS has unique definitions
     /// for Magic word. It makes many troubles in Loader behaviour recognition)
     /// </summary>
     public string[] Loader;

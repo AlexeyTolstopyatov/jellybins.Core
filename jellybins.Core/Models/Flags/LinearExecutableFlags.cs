@@ -1,4 +1,4 @@
-﻿namespace jellybins.Core.Models;
+﻿namespace jellybins.Core.Models.Flags;
 
 public struct LinearExecutableFlags
 {

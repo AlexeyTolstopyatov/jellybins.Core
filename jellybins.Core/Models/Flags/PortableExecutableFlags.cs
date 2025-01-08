@@ -1,4 +1,4 @@
-﻿namespace jellybins.Core.Models;
+﻿namespace jellybins.Core.Models.Flags;
 
 /// <summary>
 /// Represents PE specific flags
