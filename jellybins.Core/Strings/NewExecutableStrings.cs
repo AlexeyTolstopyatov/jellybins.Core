@@ -4,7 +4,7 @@ using jellybins.Core.Models.Workers;
 
 namespace jellybins.Core.Strings;
 
-public class NewExecutableToRussianStrings : IStrings
+public class NewExecutableStrings : IStrings
 {
     public string OperatingSystemFlagToString<T>(T os = default!) where T : IComparable
     {
@@ -27,11 +27,11 @@ public class NewExecutableToRussianStrings : IStrings
 
     public string OperatingSystemVersionToString<T>(T major, T minor) where T : IComparable
     {
-        throw new NotImplementedException();
+        return $"{major}.{minor}";
     }
 
     public string CpuWordLengthFlagToString()
     {
-        throw new NotImplementedException();
+        return "16";
     }
 }
